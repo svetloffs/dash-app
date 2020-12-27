@@ -23,6 +23,6 @@ start_date = end_date - delta
 # str_today = str(dt.today().year) + '-' + str(dt.today().month) + '-' + str(dt.today().day)
 rng = pd.date_range(start_date, periods = int(delta.days) // 30, freq = 'm')
 data = pd.DataFrame({'date': rng, 'Sales': np.random.randint(0, 100, len(rng))})
-data
+data.head()
 
 # %%
