@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 # %%
+=======
+>>>>>>> e8bfdcefa1191f4277db265cea125824eb953e17
 %config IPCompleter.greedy=True
 import pandas as pd
 import numpy as np
@@ -112,4 +115,8 @@ def update_company(selected_dropdown_value):
 app.css.append_css({'external_url': 'https://codepen.io/chriddyp/pen/bWLwgP.css'})
 
 if __name__ == '__main__':
+<<<<<<< HEAD
     app.run_server()
+=======
+    app.run_server()
+>>>>>>> e8bfdcefa1191f4277db265cea125824eb953e17
