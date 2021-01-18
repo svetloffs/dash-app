@@ -100,6 +100,7 @@ def update_graph(selected_dropdown_value, picked_date):
                               picked_date,
                               dt.now()
                              )
+# df_stock = pd.read_csv('')
 #     print(df_stock.head())
     return {'data': [{'x': df_stock.index,
                       'y': df_stock.Close}],
